@@ -5,3 +5,5 @@ Profesor Dempwolf introduced us to Gemini and encouraged us to us this AI journa
 tool but as a daily tracker.
 After the final line was typed, debugging began for ## Exercise 11: Basic Price Math.
 Exercise 15 took me hook, I asked AI to help me understand "first_dot" and last_dot"
+what
+next
