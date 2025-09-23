@@ -11,3 +11,12 @@ is if finally working?
 I think thats a yes
 On to the next exercise, which is exercise 2.
 Whats the exercise
+Exercise week 2 and 3 proved to be a review of what was previously taught in the introduction to Python.
+I was having trouble with number 15 as the "[]" signs kept appreaing in the print screen and I was trying to remove it
+but removing it would cause the code not to run and get an error screen. Help was needed for this.
+I tried using AI for assitance but I my inturpretation was misunderstood and AI ignored my command/clearification and 
+printed out the code as before with no changes and the "[]" still printing at the end. Here is the code as typed 
+titles = ["Artificial Intelligence", "AI Basics", "Data Science 101", "Ethics in Technology", "Human-Centered AI"]
+
+# First three titles
+print(titles[0:3])
