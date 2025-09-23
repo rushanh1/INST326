@@ -38,7 +38,7 @@ print(f"Final price: ${final_price:2f}")
 home_branch = " umd "
 normalized = home_branch.strip().upper()
 print(normalized)
-"""
+
 frost_date_passed = False
 soil_temp = 55
 plant_type = "lettuce"
@@ -54,3 +54,56 @@ else:
 titles = ["Python 101", "Data Wrangling", "AI Basics", "Networks", "UX Design"]
 available = [True, True, False, True, False]
 print(f"The {plant_type} is {frost_date_passed}")
+
+# Example titles list
+titles = "Artificial Intelligence", "AI Basics", "Data Science 101", "Ethics in Technology", "Human-Centered AI"
+
+# Search for "AI Basics"
+if "AI Basics" in titles:
+    print (f"{titles}")
+else:
+    print(-1)
+
+titles = ["Artificial Intelligence", "AI Basics", "Data Science 101", "Ethics in Technology", "Human-Centered AI"]
+
+# First three titles
+print(titles[0:4])
+
+available = [False, False, True, False, False]  # example availability list
+
+any_available = True
+for status in available:
+    if status:   # if True
+        any_available = True
+        break    # no need to check further
+
+print(any_available)
+
+titles = ["Artificial Intelligence", "AI Basics", "Data Science 101", "Ethics in Technology", "Human-Centered AI"]
+available = [True, False, True, True, False]
+
+choice = ""
+
+while choice != "3":
+    print("\nMenu:")
+    print("1. Print all titles")
+    print("2. Print available titles only")
+    print("3. Quit")
+    choice = input("Enter choice: ")
+
+    if choice == "1":
+        for t in titles:
+            print(t)
+    elif choice == "2":
+        for i in range(len(titles)):
+            if available[i]:
+                print(titles[i])
+    elif choice == "3":
+        print("Goodbye!")
+    else:
+        print("Invalid choice, try again.")
+"""
+titles = ["Artificial Intelligence", "AI Basics", "Data Science 101", "Ethics in Technology", "Human-Centered AI"]
+
+# First three titles
+print(titles[0:3])
