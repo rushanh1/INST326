@@ -102,8 +102,14 @@ while choice != "3":
         print("Goodbye!")
     else:
         print("Invalid choice, try again.")
-"""
+
 titles = ["Artificial Intelligence", "AI Basics", "Data Science 101", "Ethics in Technology", "Human-Centered AI"]
 
 # First three titles
 print(titles[0:3])
+"""
+def find_book_index(titles, search_titles):
+    for i, j in enumerate(titles):
+        if j == search_titles:
+            return i
+        return -1
