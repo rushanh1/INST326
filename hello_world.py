@@ -107,9 +107,16 @@ titles = ["Artificial Intelligence", "AI Basics", "Data Science 101", "Ethics in
 
 # First three titles
 print(titles[0:3])
-"""
+
 def find_book_index(titles, search_titles):
     for i, j in enumerate(titles):
         if j == search_titles:
             return i
+        
         return -1
+        """
+def books_by_author_fuzzy(titles, authors, author_query):
+    
+
+    normalized_query = author_query.strip().lower()
+    return [titles[i] for i in range(len(authors)) if authors[i].strip().lower() == normalized_query]
