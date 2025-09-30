@@ -22,3 +22,5 @@ titles = ["Artificial Intelligence", "AI Basics", "Data Science 101", "Ethics in
 print(titles[0:3])
 "Write a function `find_book_index(titles, search_title)` that returns the **index** of the first exact match, or `-1` if not found."
 Was proven to be difficult because I didnt have a print command, but included it in my "hello_world.py" file.
+Needed help with the "Classes" part of the exercise. Asked a group member and was able to find a solution.
+Started working on the group project or assignments this week as well.
