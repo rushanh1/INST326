@@ -11,7 +11,7 @@
 #height_ft = float(11) / 12     # convert inches to feet -> 0.9166...
 #count_from_str = int("42")     # 42
 #print(plants_str, height_ft, count_from_str)
-""""
+
 first = "Ovtavia"
 last = "Butler"
 author_full = "Ovtavia Butler"
@@ -74,7 +74,7 @@ call_no = "QA.76.P98"
 last_dot = call_no.rfind(".")
 
 cutter = call_no[last_dot+1:]
-"""
+
 # Your code here
 int = int(input("Enter a rating thats 0-5: "))
 valid = (int >= 0) and (int <= 5)
