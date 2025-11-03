@@ -27,3 +27,10 @@ Started working on the group project or assignments this week as well.
 Another attempt at exercise 5
 Another attempt exercise, which is number 6.
 Week 7 Exercises
+Received an error for Exercise 7 Number 18: def process_value(x):
+    try:
+        return int(x) * 2
+    except:  # catches *everything* — too broad!
+        print("Something went wrong.")
+        return None
+Going into week 8, I ran into an obstacle that caused me to think for a long period of time.
