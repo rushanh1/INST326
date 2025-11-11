@@ -34,3 +34,20 @@ Received an error for Exercise 7 Number 18: def process_value(x):
         print("Something went wrong.")
         return None
 Going into week 8, I ran into an obstacle that caused me to think for a long period of time.
+The weekly exercise proved to be difficult, this was 
+my first attempt at it: rom abc import ABC, abstractmethod
+from typing import Dict, Any
+
+class LibraryResource(ABC):
+    def __init__(self, resource_id: str, title: str):
+        if not resource_id or not title:
+            raise ValueError("resource_id and title are needed.")
+ self._id = resource_id
+
+ self._title = title
+
+    @property
+    def id(self) -> str: return self._id
+
+  @property
+    def title(self) -> str: return self._title
