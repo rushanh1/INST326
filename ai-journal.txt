@@ -51,3 +51,4 @@ class LibraryResource(ABC):
 
   @property
     def title(self) -> str: return self._title
+    Another attempt at exercise 10
