@@ -52,3 +52,5 @@ class LibraryResource(ABC):
   @property
     def title(self) -> str: return self._title
     Another attempt at exercise 10
+    
+Another week of Python Exercises this weeks AI journal entry will be regarding week 12
