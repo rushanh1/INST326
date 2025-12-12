@@ -54,3 +54,4 @@ class LibraryResource(ABC):
     Another attempt at exercise 10
     
 Another week of Python Exercises this weeks AI journal entry will be regarding week 12
+Week13 AI Journal Entry Another but Final Attempt
